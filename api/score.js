@@ -10,7 +10,7 @@ export default function handler(req, res) {
   }
 
   if (resumeText.trim().length < 50) {
-    return res.status(400).json({ error: 'resumeText is too short to be a real' })
+    return res.status(400).json({ error: 'resumeText is too short to be a real resume' })
   }
 
   if (resumeText.length > 6000) {
