@@ -12,6 +12,7 @@
   "type": "commonjs",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.111.0",
-    "@supabase/supabase-js": "^2.110.5"
+    "@supabase/supabase-js": "^2.110.5",
+    "openai": "^6.47.0"
   }
 }
